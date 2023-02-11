@@ -61,3 +61,7 @@ variable "r53_zone_id" {
 variable "r53_type" {
   type = string
 }
+
+variable "cf_locations" {
+  type = list
+}

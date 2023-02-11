@@ -22,6 +22,7 @@ cf_default_root_object      = "index.html"
 cf_enabled                  = "true"
 cf_is_ipv6_enabled          = "true"
 cf_log_include_cookies      = "false"
+cf_locations                = ["PT", "BR", "US"]
 
 #route53
 r53_domainname = "test.diversifica.me"

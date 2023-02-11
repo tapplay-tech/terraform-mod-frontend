@@ -32,7 +32,7 @@ resource "aws_cloudfront_distribution" "cf" {
   restrictions {
     geo_restriction {
       restriction_type = "whitelist"
-      locations        = ["PT", "BR"]
+      locations        = var.cf_locations
     }
   }
 

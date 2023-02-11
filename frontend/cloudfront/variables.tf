@@ -37,3 +37,7 @@ variable "cf_minimum_protocol_version" {
 variable "cf_aliases" {
   type = list(any)
 }
+
+variable "cf_locations" {
+  type = list
+}

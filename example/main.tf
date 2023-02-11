@@ -18,6 +18,7 @@ module "cloudfront" {
   cf_acm_certificate_arn      = var.cf_acm_certificate_arn
   cf_minimum_protocol_version = var.cf_minimum_protocol_version
   cf_aliases                  = var.cf_aliases
+  cf_locations                = var.cf_locations
 }
 
 module "route53" {
