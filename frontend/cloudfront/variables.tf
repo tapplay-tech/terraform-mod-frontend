@@ -39,5 +39,5 @@ variable "cf_aliases" {
 }
 
 variable "cf_locations" {
-  type = list
+  type = list(any)
 }

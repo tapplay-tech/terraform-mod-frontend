@@ -1,4 +1,3 @@
-
 # Terraform Frontend Module
 
 A simplified way to provision frontend applications on AWS.
